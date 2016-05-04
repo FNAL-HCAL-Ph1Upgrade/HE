@@ -1,0 +1,22 @@
+
+put HE1-1-dac1-daccontrol_RefSelect 0
+put HE1-1-dac1-daccontrol_ChannelMonitorEnable 1
+put HE1-1-dac1-daccontrol_InternalRefEnable 1
+put HE1-1-dac2-daccontrol_RefSelect 0
+put HE1-1-dac2-daccontrol_ChannelMonitorEnable 1
+put HE1-1-dac2-daccontrol_InternalRefEnable 1
+
+wait
+
+put HE1-1-biasvoltage[37-48]_f 12*70.0
+
+wait
+
+put HE1-1-peltier_stepseconds 900
+put HE1-1-peltier_targettemperature_f 22.0
+put HE1-1-peltier_adjustment_f 0.25
+put HE1-1-peltier_control 1
+
+wait
+
+

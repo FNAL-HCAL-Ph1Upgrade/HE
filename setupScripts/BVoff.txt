@@ -1,0 +1,7 @@
+put HE1-1-biasvoltage[1-48]_f 48*0.0
+
+wait
+
+put HE1-2-biasvoltage[1-48]_f 48*0.0
+
+

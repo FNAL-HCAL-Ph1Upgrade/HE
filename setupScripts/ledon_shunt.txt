@@ -1,0 +1,27 @@
+put HE1-pulser-ledA-enable 1
+put HE1-pulser-ledA-amplitude_f 0.1
+put HE1-pulser-ledA-delay_f 10.0
+put HE1-pulser-ledA-bxdelay 9
+put HE1-pulser-ledA-width_f 10.
+put HE1-pulser-ledB-enable 1
+put HE1-pulser-ledB-amplitude_f 0.1
+put HE1-pulser-ledB-delay_f 10.0
+put HE1-pulser-ledB-bxdelay 9
+put HE1-pulser-ledB-width_f 10.0
+wait
+get HE1-pulser-ledA-enable
+get HE1-pulser-ledA-amplitude_f
+get HE1-pulser-ledA-delay_f
+get HE1-pulser-ledA-bxdelay
+get HE1-pulser-ledA-width_f
+get HE1-pulser-ledB-enable
+get HE1-pulser-ledB-amplitude_f
+get HE1-pulser-ledB-delay_f
+get HE1-pulser-ledB-bxdelay
+get HE1-pulser-ledB-width_f
+
+#put HE1-1-QIE[1-48]_Gsel 48*0x04
+#put HE1-1-QIE[1-48]_Gsel 48*0x04
+#put HE1-1-QIE[1-48]_Gsel 48*0x10
+#put HE1-1-QIE[1-48]_Gsel 48*0x1a
+put HE1-1-QIE[1-48]_Gsel 48*0x1f

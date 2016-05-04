@@ -1,0 +1,20 @@
+put HE1-3-dac1-daccontrol_RefSelect 0
+put HE1-3-dac1-daccontrol_ChannelMonitorEnable 1
+put HE1-3-dac1-daccontrol_InternalRefEnable 1
+put HE1-3-dac2-daccontrol_RefSelect 0
+put HE1-3-dac2-daccontrol_ChannelMonitorEnable 1
+put HE1-3-dac2-daccontrol_InternalRefEnable 1
+
+put HE1-4-dac1-daccontrol_RefSelect 0
+put HE1-4-dac1-daccontrol_ChannelMonitorEnable 1
+put HE1-4-dac1-daccontrol_InternalRefEnable 1
+put HE1-4-dac2-daccontrol_RefSelect 0
+put HE1-4-dac2-daccontrol_ChannelMonitorEnable 1
+put HE1-4-dac2-daccontrol_InternalRefEnable 1
+
+put HE1-1-dac1-daccontrol_RefSelect 0
+put HE1-1-dac1-daccontrol_ChannelMonitorEnable 1
+put HE1-1-dac1-daccontrol_InternalRefEnable 1
+put HE1-1-dac2-daccontrol_RefSelect 0
+put HE1-1-dac2-daccontrol_ChannelMonitorEnable 1
+put HE1-1-dac2-daccontrol_InternalRefEnable 1

@@ -1,0 +1,10 @@
+get HE1-pulser-ledA-enable
+get HE1-pulser-ledA-amplitude_f
+get HE1-pulser-ledA-delay_f
+get HE1-pulser-ledA-bxdelay
+get HE1-pulser-ledA-width_f
+get HE1-pulser-ledB-enable
+get HE1-pulser-ledB-amplitude_f
+get HE1-pulser-ledB-delay_f
+get HE1-pulser-ledB-bxdelay
+get HE1-pulser-ledB-width_f

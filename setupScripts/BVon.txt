@@ -1,0 +1,13 @@
+put HE1-1-biasvoltage[1-48]_f 48*70.0
+
+wait
+
+put HE1-3-biasvoltage[1-48]_f 48*70.0
+
+wait
+
+put HE1-4-biasvoltage[1-48]_f 48*70.0
+
+wait
+
+put HE1-4-biasvoltage12_f 71.5

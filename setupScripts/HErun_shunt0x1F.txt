@@ -1,0 +1,7 @@
+put HE1-2-QIE[1-48]_TimingThresholdDAC 48*12
+put HE1-1-QIE[1-48]_TimingThresholdDAC 48*12
+
+wait
+
+put HE1-2-QIE[1-48]_Gsel 48*0x1f
+put HE1-1-QIE[1-48]_Gsel 48*0x1f

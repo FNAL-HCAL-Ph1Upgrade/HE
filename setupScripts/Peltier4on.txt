@@ -1,0 +1,4 @@
+put HE1-4-peltier_stepseconds 900
+put HE1-4-peltier_targettemperature_f 22.0
+put HE1-4-peltier_adjustment_f 0.25
+put HE1-4-peltier_control 1
